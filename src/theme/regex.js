@@ -1,0 +1,9 @@
+export const emailRegex = /^[a-zA-Z][a-zA-Z0-9_.]{1,32}@[a-zA-Z0-9_-]{2,}(\.[a-zA-Z0-9]{2,4}){1,2}$/;
+export const numberOnlyRegex = /^\d+$/;
+export const phoneNumberRegex = /^\d{8,15}$/;
+export const nameRegex = /^(([A-Za-z]+[\-\']?)*([A-Za-z]+)?\s)+([A-Za-z]+[\-\']?)*([A-Za-z]+)?$/;
+export const usernameRegex = /^[a-z0-9\\]*$/;
+export const descriptionRegex=/^(.|\s)*[a-zA-Z]+(.|\s)*$/
+export const onlyLetterRegex=/^[a-zA-Z\s]*$/
+export const floatNumberRegex=/^[1-9]\d{0,3}(\.\d{0,2})*(,\d+)?$/
+export const urlRegex=/(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/
